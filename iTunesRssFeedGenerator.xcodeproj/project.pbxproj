@@ -14,6 +14,8 @@
 		AC32909423AAE95300B0724C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC32909223AAE95300B0724C /* LaunchScreen.storyboard */; };
 		AC32909F23AAE95400B0724C /* iTunesRssFeedGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC32909E23AAE95400B0724C /* iTunesRssFeedGeneratorTests.swift */; };
 		AC3290AA23AAE95400B0724C /* iTunesRssFeedGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3290A923AAE95400B0724C /* iTunesRssFeedGeneratorUITests.swift */; };
+		AC3290B823ADB5F800B0724C /* CountrySelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3290B723ADB5F800B0724C /* CountrySelectionViewController.swift */; };
+		AC3290BC23ADBD2800B0724C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3290BB23ADBD2800B0724C /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		AC3290A523AAE95400B0724C /* iTunesRssFeedGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesRssFeedGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC3290A923AAE95400B0724C /* iTunesRssFeedGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesRssFeedGeneratorUITests.swift; sourceTree = "<group>"; };
 		AC3290AB23AAE95400B0724C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC3290B723ADB5F800B0724C /* CountrySelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectionViewController.swift; sourceTree = "<group>"; };
+		AC3290BB23ADBD2800B0724C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,13 @@
 		AC32908823AAE95200B0724C /* iTunesRssFeedGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				AC3290BA23ADB9F300B0724C /* View */,
 				AC32908923AAE95200B0724C /* AppDelegate.swift */,
-				AC32908B23AAE95200B0724C /* ViewController.swift */,
 				AC32908D23AAE95200B0724C /* Main.storyboard */,
 				AC32909023AAE95300B0724C /* Assets.xcassets */,
 				AC32909223AAE95300B0724C /* LaunchScreen.storyboard */,
 				AC32909523AAE95300B0724C /* Info.plist */,
+				AC3290BB23ADBD2800B0724C /* NetworkManager.swift */,
 			);
 			path = iTunesRssFeedGenerator;
 			sourceTree = "<group>";
@@ -123,6 +128,15 @@
 				AC3290AB23AAE95400B0724C /* Info.plist */,
 			);
 			path = iTunesRssFeedGeneratorUITests;
+			sourceTree = "<group>";
+		};
+		AC3290BA23ADB9F300B0724C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC32908B23AAE95200B0724C /* ViewController.swift */,
+				AC3290B723ADB5F800B0724C /* CountrySelectionViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +270,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC3290BC23ADBD2800B0724C /* NetworkManager.swift in Sources */,
 				AC32908C23AAE95200B0724C /* ViewController.swift in Sources */,
 				AC32908A23AAE95200B0724C /* AppDelegate.swift in Sources */,
+				AC3290B823ADB5F800B0724C /* CountrySelectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
